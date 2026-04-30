@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JavaActionsTestApplication {
 
-    static void main(String[] args) {
-        SpringApplication.run(JavaActionsTestApplication.class, args);
-    }
+  static void main(String[] args) {
+    SpringApplication.run(JavaActionsTestApplication.class, args);
+  }
 
-    @GetMapping("/hello")
-    String hello() {
-        return "Hello World";
-    }
+  @GetMapping("/hello")
+  String hello() {
+    return "Hello World";
+  }
 }
